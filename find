@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#With help of find command, searched required file and copy into destination path.
+# -type f --> for file type || -type d --> for directory.
+find /destinationPath/ -name '*.yaml' -exec cp --parents \{\} /targetPath/ \;
