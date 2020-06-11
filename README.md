@@ -116,6 +116,15 @@ for i := 0; i <= 10; i++ {
    * To get the status line in end of the bottom `:f `. It will show total number of lines and percentage of mark where is cursor pointed.
    * Additional notes:- With this buffer technique we can add, copy, paste, search, replace and delete tasks can perform multiple times as per requirements. Without leaving and closing a single file.
   * Vim is more advanced and flexible.
-
-
-
+- To make a more flexibility to write coding/Yaml code in vim editor: -
+  * ~/.vimrc
+  * set ts=2 sw=2 ruler expandtab
+  * set backspace=indent,eol,start
+  * set list --> Identify tabs
+  * :retab!  --> Fix the tabs
+  * set number/nu  --> Display number column
+  * set numberwidth=5  --> Adjust to screen
+- To reload/activate in environment shell: - 
+```
+$ source ~/.vimrc
+```
